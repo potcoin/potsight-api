@@ -2,7 +2,7 @@
 
 // server-side socket behaviour
 var ios = null; // io is already taken in express
-var util = require('reddcore').util;
+var util = require('potcore').util;
 var logger = require('../../lib/logger').logger;
 
 module.exports.init = function(io_ext) {

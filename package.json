@@ -1,57 +1,29 @@
 {
-  "name": "reddsight-api",
-  "description": "An open-source Reddcoin blockchain API. The Reddsight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
+  "name": "potsight-api",
+  "description": "An open-source Potcoin blockchain API. The Potsight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.2.12",
   "author": {
-    "name": "Larry Ren",
-    "email": "ren@reddcoin.com"
+    "name": "Potcoin",
+    "email": "info@potcoin.com"
   },
-  "repository": "git://github.com/reddcoin-project/reddsight-api.git",
+  "repository": "git://github.com/potcoin/potsight-api.git",
   "contributors": [
     {
-      "name": "Andrew Groff",
-      "email": "andrew@reddcoin.com"
-    },
-    {
-      "name": "Mike Croteau",
-      "email": "mike@reddcoin.com"
-    },
-    {
-      "name": "Ryan X Charles",
-      "email": "ryan@bitpay.com"
-    },
-    {
-      "name": "Matias Alejo Garcia",
-      "email": "ematiu@gmail.com"
-    },
-    {
-      "name": "Manuel Araoz",
-      "email": "manuelaraoz@gmail.com"
-    },
-    {
-      "name": "Mario Colque",
-      "email": "colquemario@gmail.com"
-    },
-    {
-      "name": "Gustavo Cortez",
-      "email": "cmgustavo83@gmail.com"
-    },
-    {
-      "name": "Juan Ignacio Sosa Lopez",
-      "email": "bechilandia@gmail.com"
+      "name": "PC",
+      "email": "dev@potcoin.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/reddcoin-project/reddsight-api/issues"
+    "url": "https://github.com/potcoin/potsight-api/issues"
   },
-  "homepage": "https://github.com/reddcoin-project/reddsight-api",
+  "homepage": "https://github.com/potcoin/potsight-api",
   "license": "MIT",
   "keywords": [
-    "reddcoin",
-    "reddcore",
-    "reddsight",
-    "reddsight api",
-    "reddcoin api",
+    "potcoin",
+    "potcore",
+    "potsight",
+    "potsight api",
+    "potcoin api",
     "insight",
     "insight api",
     "blockchain",
@@ -72,7 +44,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "reddcore": "git://github.com/reddcoin-project/reddcore.git",
+    "potcore": "git://github.com/potcoin/potcore.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",

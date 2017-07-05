@@ -25,8 +25,8 @@ if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
   port = '3000';
-  b_port = '8332';
-  p2p_port = '4200';
+  b_port = '45443';
+  p2p_port = '45444';
 } else {
   env = 'testnet';
   db = home + '/testnet';
@@ -56,9 +56,9 @@ var isWin = /^win/.test(process.platform);
 var isMac = /^darwin/.test(process.platform);
 var isLinux = /^linux/.test(process.platform);
 if (!dataDir) {
-  if (isWin) dataDir = '%APPDATA%\\Reddcoin\\';
+  if (isWin) dataDir = '%APPDATA%\\Potcoin\\';
   if (isMac) dataDir = process.env.HOME + '/Library/Application Support/Potcoin/';
-  if (isLinux) dataDir = process.env.HOME + '/.potcoin2/';
+  if (isLinux) dataDir = process.env.HOME + '/.potcoin/';
 }
 dataDir += network === 'testnet' ? 'testnet' : '';
 
